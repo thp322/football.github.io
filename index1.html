@@ -15,6 +15,11 @@
             margin: 0;
             padding: 0;
         }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
         #top{
             height: 50px;
             width: 100%;
@@ -80,11 +85,27 @@
             border-style: solid;
             border-color: antiquewhite;
             border-radius: 5px;
-            margin-top: 10px
+            margin-top: 10px;
+            text-align: center;
+            padding-bottom: 10px;
         }
         #big h2{
             text-align: center;
-            color: rgb(46, 227, 251);
+            color: rgb(215, 183, 118);
+            margin-top: 10px;
+        }
+        #big img{
+            height: 100px;
+            width: 100px;
+            margin-top: 5px;
+        }
+        #big p{
+            color: antiquewhite;
+            margin: 10px;
+        }
+        #big span{
+            color: rgb(129, 167, 124);
+            margin: 10px;
         }
     </style>
 </head>
@@ -110,9 +131,28 @@
 
      <div id="big">
         <h2>球队新闻</h2>
+        <a href="img/护院足球队招新.png"><img src="img/护院足球队招新.png" alt="" style="height: 450px;width: 300px;object-fit: contain;"></a>
      </div>
      <div id="big">
         <h2>球队历史</h2>
+        <img src="img/NFC.jpg" alt="">
+        <p>2020年 建立护院足球队</p>
+        <span>111</span>
+        <br>
+        <span>222</span>
+        <p>2021年</p>
+        <span>111</span>
+        <p>2022年</p>
+        <span>111</span>
+        <p>2023年</p>
+        <span>111</span>
+     </div>
+     <div id="big">
+        <h2>球队活动</h2>
+        <p>2023</p>
+        <span>111</span>
+        <br>
+        <span>222</span>
      </div>
 </body>
 </html>
