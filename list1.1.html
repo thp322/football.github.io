@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFC足球队</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/fonts/iconfont.css">
+    <style>
+        body{
+            background-color: rgb(56, 76, 83);
+            padding: 5px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #top{
+            height: 50px;
+            width: 100%;
+            background-color: rgb(242, 242, 242);
+            margin-bottom: 0px;
+            border-radius: 5px;
+        }
+        #top img{
+            width: 50px;
+            height: 100%;
+            float: left;
+            border-radius: 5px;
+        }
+        #top p{
+            float: left;
+            margin-top: 14px;
+            font-family: monospace;
+            font-size: 15px;
+            color: rgb(0, 0, 0);
+        }
+        #search{
+            height: 30px;
+            width: 170px;
+            margin-top: 12px;
+            margin-bottom: 10px;
+            float: left;
+            border-radius: 20px;
+        }
+        #top input{
+            height: 80%;
+            width: 100%;
+        }
+        #profile{
+            height: 37px;
+            width: 37px;
+            margin-top: 5px;
+            margin-right: 8px;
+            border-radius: 50%;
+            border-color:antiquewhite;
+            border-style: solid;
+            border-width: 2px;
+            background-color: rgb(102, 168, 125);
+            float: right;
+        }
+
+        #menu{
+            background-color: rgb(64, 216, 216);
+            border-color: black;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 2px;
+            width: 99%;
+            margin-right: 10px;
+        }
+        #menu p{
+            display: inline-block;
+            color: rgb(31, 163, 184);
+            font-size: 20px;
+            margin-left: 9px;
+        }
+
+        .big{
+            width: 100%; 
+            margin-top: 15px;  
+            border-radius: 5px;
+            border-color: bisque;
+            border-style: solid;
+            padding-bottom: 10px;
+        }
+        .word{
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .small{
+            margin-top: 10px;
+            margin-left: 25px;
+            margin-right: 20px;
+        }
+        .a1{
+            float: right;
+            color: rgb(177, 255, 9);
+            margin-top: 40px;
+            margin-right: 30px;
+        }
+        .a2{
+            float: right;
+            color: rgb(177, 255, 9);
+            margin-top: 40px;
+            margin-right: 70px;
+        }
+        .a3{
+            float: right;
+            color: rgb(177, 255, 9);
+            margin-top: 40px;
+            margin-right: 60px;
+        }
+        .little{
+            display: inline-block;
+        }
+        .little span{
+            text-align: center;
+        }
+        .word span{
+            font-size: 25px;
+            color: rgb(211, 142, 117);
+        }
+        .name{
+            font-size: 18px;
+            color: rgb(30, 140, 199);
+            text-align: center;
+            margin-top: 5px;
+        }
+        .photo{
+            width: 74px;
+            height: 74px;
+            background-color: rgb(216, 213, 191);
+            border-radius: 50%;
+            border-width: 1px;
+            border-color: rgb(43, 156, 149);
+            border-style: solid;
+        }
+        .photo img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .list{
+            font-size: 15px;
+            color: rgb(213, 96, 96);
+            float: right;
+            margin-top: 5px;
+            margin-right: 20px;
+            background-color:beige;
+        }
+        .list2{
+            font-size: 15px;
+            color: rgb(213, 96, 96);
+            float: right;
+            margin-top: 5px;
+            margin-right: 20px;
+            background-color:beige;
+        }
+        .list2 span{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .list span{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .honor{
+            text-align: center;
+            font-size: 15px;
+            color: rgb(184, 204, 85);
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+     <div id="top">
+        <a href="img/NFC.jpg"><img src="img/NFC.jpg" alt=""></a>
+        <p>NFC足球队</p>
+        <div id="search">
+            <input type="text" placeholder="搜索队员，视频（暂未开发）">
+        </div>
+        <a href="login.html"><div id="profile"><span class="iconfont icon-wodewo" style="font-size: 34px;color:antiquewhite;margin-left: 1px;"></span></div></a>
+     </div>
+
+     <div id="menu">
+        <a href="index1.html"><p>首页</p></a>
+        <a href="train.html"><p>训练</p></a>
+        <a href="contest.html"><p>比赛</p></a>
+        <a href="player.html"><p style="color: black;">队员</p></a>
+        <a href="log.html"><p>日志</p></a>
+        <a href="teach.html"><p>教学</p></a>
+        <a href=""><span class="iconfont icon-gengduo" style="font-size: 20px;"></span></a>
+     </div>
+     
+     <div class="big">
+        <div class="word">
+            <span>23赛季上 十一人制足球榜</span>
+        </div>
+        <div class="list2">
+            <span>排名</span>
+            <span>进球</span>
+            <span>助攻</span>
+        </div>
+        <br>
+        <div class="small">
+            <div class="little">
+                <a href="">
+                    <div class="photo">
+    
+                    </div>
+                </a>
+                <div class="name">
+                    <span>队员1</span>
+                </div>
+            </div>
+            <p class="a1">0</p>
+            <p class="a2">0</p>
+            <p class="a3">1</p>
+        </div>
+        <div class="small">
+            <div class="little">
+                <a href="">
+                    <div class="photo">
+    
+                    </div>
+                </a>
+                <div class="name">
+                    <span>队员2</span>
+                </div>
+            </div>
+            <p class="a1">0</p>
+            <p class="a2">0</p>
+            <p class="a3">2</p>
+        </div>
+        <div class="small">
+            <div class="little">
+                <a href="">
+                    <div class="photo">
+    
+                    </div>
+                </a>
+                <div class="name">
+                    <span>队员3</span>
+                </div>
+            </div>
+            <p class="a1">0</p>
+            <p class="a2">0</p>
+            <p class="a3">3</p>
+            <div class="honor">
+                <span>===========<a href="" style="color: aqua;">查看完整榜单</a>===========</span>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
